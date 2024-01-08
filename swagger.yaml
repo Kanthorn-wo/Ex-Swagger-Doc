@@ -46,6 +46,8 @@ paths:
       responses:
         "201":
           description: Created
+        "500":
+          description: Error
     put:
       summary: Updated a attractions.
       requestBody:
